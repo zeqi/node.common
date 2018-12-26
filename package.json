@@ -1,0 +1,39 @@
+{
+  "name": "smart.node.common",
+  "version": "1.0.0",
+  "description": "The common module for store every platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=store* node index.js",
+    "test": "npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeqi/smart.node.common.git"
+  },
+  "keywords": [
+    "smart.node.common",
+    "store",
+    "common",
+    "store.nodejs"
+  ],
+  "author": "zhuxj4 <zhuxj4@lenovo.com>",
+  "license": "LENOVO",
+  "bugs": {
+    "url": "https://github.com/zeqi/smart.node.common/issues"
+  },
+  "homepage": "https://github.com/zeqi/smart.node.common",
+  "dependencies": {
+    "basic-auth": "1.1.0",
+    "debug": "2.6.8",
+    "q": "1.5.0",
+    "qs": "6.4.0",
+    "superagent": "3.5.2",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-jsdoc3": "1.0.1"
+  }
+}
