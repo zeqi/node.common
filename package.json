@@ -1,7 +1,7 @@
 {
   "name": "node.common",
   "version": "1.0.0",
-  "description": "The common module for store every platform",
+  "description": "The common module for every platform",
   "main": "index.js",
   "scripts": {
     "start": "DEBUG=store* node index.js",
@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/zeqi/node.common",
   "dependencies": {
-    "basic-auth": "1.1.0",
-    "debug": "2.6.8",
-    "q": "1.5.0",
-    "qs": "6.4.0",
-    "superagent": "3.5.2",
-    "uuid": "3.0.1"
+    "basic-auth": "^2.0.1",
+    "debug": "^4.1.1",
+    "q": "^1.5.1",
+    "qs": "^6.9.3",
+    "superagent": "^5.2.2",
+    "uuid": "^7.0.2"
   },
   "devDependencies": {
     "gulp": "3.9.1",
